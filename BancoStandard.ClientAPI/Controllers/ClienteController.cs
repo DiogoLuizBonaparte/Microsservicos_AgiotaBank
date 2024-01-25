@@ -31,5 +31,30 @@ namespace BancoStandard.CadastroAPI.Controllers
             if (product == null) return NotFound();
             return Ok(product);
         }
+
+        [HttpPost]
+        public async Task<ActionResult<ClienteVO>> Create(ClienteVO vo)
+        {
+            if (vo == null) return BadRequest();
+            var cliente = await _repository.Create(vo);
+            return Ok(cliente);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<ClienteVO>> Update(ClienteVO vo)
+        {
+            if (vo == null) return BadRequest();
+            var cliente = await _repository.Update(vo);
+            return Ok(cliente);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(long id)
+        {
+           
+            var status = await _repository.Delete(id);
+            if (!status) return BadRequest();
+            return Ok(status);
+        }
     }
 }

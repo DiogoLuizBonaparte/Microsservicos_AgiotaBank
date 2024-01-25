@@ -27,7 +27,6 @@ namespace BancoStandard.CadastroAPI.Repository
             return _mapper.Map<ClienteVO>(product);
         }
 
-
         public async Task<ClienteVO> Create(ClienteVO vo)
         {
             Cliente cliente = _mapper.Map<Cliente>(vo);
@@ -36,7 +35,6 @@ namespace BancoStandard.CadastroAPI.Repository
             await _context.SaveChangesAsync();
             return _mapper.Map<ClienteVO>(cliente);
         }
-
         public async Task<ClienteVO> Update(ClienteVO vo)
         {
             Cliente cliente = _mapper.Map<Cliente>(vo);
@@ -45,7 +43,6 @@ namespace BancoStandard.CadastroAPI.Repository
             await _context.SaveChangesAsync();
             return _mapper.Map<ClienteVO>(cliente);
         }
-
         public async Task<bool> Delete(long id)
         {
             try
