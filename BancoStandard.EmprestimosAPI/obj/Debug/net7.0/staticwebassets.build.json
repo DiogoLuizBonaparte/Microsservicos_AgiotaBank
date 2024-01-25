@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dI3qRzPu5A1071v3HSjEVENQLEqxvkMuWtG5z8CpTsg=",
+  "Source": "BancoStandard.EmprestimosAPI",
+  "BasePath": "_content/BancoStandard.EmprestimosAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

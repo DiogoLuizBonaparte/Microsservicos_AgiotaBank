@@ -1,3 +1,6 @@
+using AutoMapper;
+using BancoStandard.CadastroAPI.Config;
+using BancoStandard.CadastroAPI.Repository;
 using BancoStandard.ClientAPI.Model.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +18,12 @@ builder.Services.AddDbContext<SQLContext>(
         "Database=bk_cadastro;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
 
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
 var app = builder.Build();
 

@@ -21,7 +21,7 @@ namespace BancoStandard.CadastroAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BancoStandard.ClientAPI.Model.Cadastro", b =>
+            modelBuilder.Entity("BancoStandard.ClientAPI.Model.Cliente", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -29,12 +29,6 @@ namespace BancoStandard.CadastroAPI.Migrations
                         .HasColumnName("id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<string>("ModalidadeEmp")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasColumnName("modalidade_emp");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -46,7 +40,7 @@ namespace BancoStandard.CadastroAPI.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
-                        .HasColumnName("profissão");
+                        .HasColumnName("profissao");
 
                     b.HasKey("Id");
 

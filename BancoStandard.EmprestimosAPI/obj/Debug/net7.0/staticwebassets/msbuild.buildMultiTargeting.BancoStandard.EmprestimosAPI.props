@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BancoStandard.EmprestimosAPI.props" />
+</Project>

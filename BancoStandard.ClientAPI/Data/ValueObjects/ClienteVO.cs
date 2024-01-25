@@ -11,6 +11,6 @@ namespace BancoStandard.CadastroAPI.Data.ValueObjects
       
         public string Profissao { get; set; }
     
-        public string ModalidadeEmp { get; set; }
+ 
     }
 }

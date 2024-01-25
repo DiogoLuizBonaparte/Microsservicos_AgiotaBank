@@ -7,7 +7,7 @@ namespace BancoStandard.ClientAPI.Model.Context
         public SQLContext() { }
         public SQLContext(DbContextOptions<SQLContext> options) : base(options) { }
 
-        public DbSet<Cadastro> Cadastros { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
 
     }
 }
