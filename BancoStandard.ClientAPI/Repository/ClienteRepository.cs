@@ -23,7 +23,7 @@ namespace BancoStandard.CadastroAPI.Repository
         public async Task<ClienteVO> FindById(long id)
         {
             Cliente product = await _context.Clientes.Where(p => p.Id == id)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync() ?? new Cliente();
             return _mapper.Map<ClienteVO>(product);
         }
 
@@ -47,14 +47,12 @@ namespace BancoStandard.CadastroAPI.Repository
         {
             try
             {
-                Cliente product = await _context.Clientes.Where(p => p.Id == id)
-                    .FirstOrDefaultAsync();
-                if (product == null) return false;
-                _context.Clientes.Remove(product);
+                Cliente cliente = await _context.Clientes.Where(p => p.Id == id)
+                    .FirstOrDefaultAsync() ?? new Cliente();
+                if (cliente.Id <= 0) return false;
+                _context.Clientes.Remove(cliente);
                 await _context.SaveChangesAsync();
                 return true;
-
-
 
             }
             catch (Exception)

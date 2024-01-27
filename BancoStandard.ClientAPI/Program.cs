@@ -3,6 +3,8 @@ using BancoStandard.CadastroAPI.Config;
 using BancoStandard.CadastroAPI.Repository;
 using BancoStandard.ClientAPI.Model.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +26,13 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BancoStandard.CadastroAPI" });
+});
 
 var app = builder.Build();
 
