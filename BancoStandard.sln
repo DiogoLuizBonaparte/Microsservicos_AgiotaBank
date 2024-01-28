@@ -5,15 +5,15 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{16880AE8-17AC-4A67-B7C1-8C0804FBD977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoStandard.CadastroAPI", "BancoStandard.ClientAPI\BancoStandard.CadastroAPI.csproj", "{D56938C1-9E48-483F-B9AA-3810CBBA42D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoStandard.CadastroAPI", "BancoStandard.ClientAPI\BancoStandard.CadastroAPI.csproj", "{D56938C1-9E48-483F-B9AA-3810CBBA42D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoStandard.CalculosAPI", "BancoStandard.CalculosAPI\BancoStandard.CalculosAPI.csproj", "{00F087AA-C495-42FC-92C8-7F8F1D3CAE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoStandard.CalculosAPI", "BancoStandard.CalculosAPI\BancoStandard.CalculosAPI.csproj", "{00F087AA-C495-42FC-92C8-7F8F1D3CAE0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoStandard.EmprestimosAPI", "BancoStandard.EmprestimosAPI\BancoStandard.EmprestimosAPI.csproj", "{D5411EF5-5A96-457A-88E9-10E9FA4FEDB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoStandard.EmprestimosAPI", "BancoStandard.EmprestimosAPI\BancoStandard.EmprestimosAPI.csproj", "{D5411EF5-5A96-457A-88E9-10E9FA4FEDB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{DA68F068-2763-4FDD-8005-B09D680C9582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoStandard.Front", "BancoStandard.Front\BancoStandard.Front.csproj", "{6FF4AA71-0844-4BE1-8C6B-1BBA5B36D231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoStandard.Front", "BancoStandard.Front\BancoStandard.Front.csproj", "{6FF4AA71-0844-4BE1-8C6B-1BBA5B36D231}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
