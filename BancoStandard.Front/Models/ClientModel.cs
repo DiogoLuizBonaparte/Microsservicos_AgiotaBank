@@ -1,6 +1,6 @@
 ﻿namespace BancoStandard.Front.Models
 {
-    public class ProducyModel
+    public class ClientModel
     {
         public long Id { get; set; }
 

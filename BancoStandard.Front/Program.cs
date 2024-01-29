@@ -1,7 +1,15 @@
+using BancoStandard.Front.Services;
+using BancoStandard.Front.Services.IServices;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient<IClientService, ClientService>( c =>
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ClienteAPI"])
+    );
 
 var app = builder.Build();
 
