@@ -1,4 +1,5 @@
-﻿using BancoStandard.Front.Services.IServices;
+﻿using BancoStandard.Front.Models;
+using BancoStandard.Front.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BancoStandard.Front.Controllers
@@ -16,6 +17,20 @@ namespace BancoStandard.Front.Controllers
         {
             var clients = await _clientService.FindAllClients();
             return View(clients);
+        }
+        public async Task<IActionResult> ClientCreate()
+        {            
+            return View();
+        }
+        public async Task<IActionResult> ClientCreate(ClientModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var response = await _clientService.CreateClient(model);
+                if (Response != null) return RedirectToAction(nameof(ClientIndex));
+                
+            }
+                return View(model);
         }
     }   
 }

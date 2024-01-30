@@ -35,6 +35,14 @@
                     <th>
                         @item.Profissao
                     </th>
+                    <th>
+                       <a asp-action="Cliente Edit" class=" btn btn-primary" asp-route-id="@item.Id">
+                           Editar                           
+                       </a>
+                        <a asp-action="Cliente Edit" class=" btn btn-danger" asp-route-id="@item.Id">
+                            Deletar
+                        </a>
+                    </th>
                 </tr>
             }
 
