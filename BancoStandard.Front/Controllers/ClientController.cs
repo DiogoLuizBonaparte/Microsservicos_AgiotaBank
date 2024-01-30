@@ -22,6 +22,8 @@ namespace BancoStandard.Front.Controllers
         {            
             return View();
         }
+
+        [HttpPost]
         public async Task<IActionResult> ClientCreate(ClientModel model)
         {
             if (ModelState.IsValid)
