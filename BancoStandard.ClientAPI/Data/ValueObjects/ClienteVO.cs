@@ -7,9 +7,9 @@ namespace BancoStandard.CadastroAPI.Data.ValueObjects
     {     
         public long Id { get; set; }
 
-        public string Name { get; set; }
+        public  string Name { get; set; }
       
-        public string Profissao { get; set; }
+        public  string Profissao { get; set; }
     
  
     }

@@ -13,6 +13,7 @@ namespace BancoStandard.ClientAPI.Model
         public string Name { get; set; }
 
         [Column("profissao")]
+        [Required]
         [StringLength(50)]
         public string Profissao { get; set; }
 

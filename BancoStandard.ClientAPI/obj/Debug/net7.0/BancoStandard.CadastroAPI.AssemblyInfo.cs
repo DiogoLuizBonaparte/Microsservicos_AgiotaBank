@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.CadastroAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+291ee55637c83928371a1d321ce6ef5988efe797")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86c1945ffbc6a33f75aa18b9041faeba294b2926")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.CadastroAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.CadastroAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

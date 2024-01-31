@@ -32,7 +32,7 @@ namespace BancoStandard.Front.Services
             var response = await _client.PostAsJson(BasePath, model);
             if (response.IsSuccessStatusCode)           
                 return await response.ReadContentAs<ClientModel>();            
-            else throw new Exception("Algo de errado aconteceu!");            
+            else  throw new Exception("Algo de errado aconteceu!");            
         }
         public async Task<ClientModel> UpdateClient(ClientModel model)
         {
