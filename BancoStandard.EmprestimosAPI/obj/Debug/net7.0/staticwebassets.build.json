@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "dI3qRzPu5A1071v3HSjEVENQLEqxvkMuWtG5z8CpTsg=",
+  "Hash": "hK7Rkt5yJ5EAaLPufAGUMJBMS89WX3GkwzJckC0wKqE=",
   "Source": "BancoStandard.EmprestimosAPI",
   "BasePath": "_content/BancoStandard.EmprestimosAPI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Bonaparte\\source\\repos\\BancoStandard\\BancoStandard.CalculosAPI\\BancoStandard.CalculosAPI.csproj",
+      "Version": 2,
+      "Source": "BancoStandard.CalculosAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

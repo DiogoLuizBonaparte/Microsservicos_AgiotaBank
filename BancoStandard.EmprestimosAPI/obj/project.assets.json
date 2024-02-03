@@ -1208,6 +1208,23 @@
             "rid": "win"
           }
         }
+      },
+      "BancoStandard.CalculosAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "7.0.14",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/BancoStandard.CalculosAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BancoStandard.CalculosAPI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3439,12 +3456,18 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BancoStandard.CalculosAPI/1.0.0": {
+      "type": "project",
+      "path": "../BancoStandard.CalculosAPI/BancoStandard.CalculosAPI.csproj",
+      "msbuildProject": "../BancoStandard.CalculosAPI/BancoStandard.CalculosAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "BancoStandard.CalculosAPI >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.15",
       "Microsoft.AspNetCore.OpenApi >= 7.0.14",
       "Microsoft.EntityFrameworkCore >= 7.0.15",
@@ -3482,7 +3505,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Bonaparte\\source\\repos\\BancoStandard\\BancoStandard.CalculosAPI\\BancoStandard.CalculosAPI.csproj": {
+              "projectPath": "C:\\Users\\Bonaparte\\source\\repos\\BancoStandard\\BancoStandard.CalculosAPI\\BancoStandard.CalculosAPI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

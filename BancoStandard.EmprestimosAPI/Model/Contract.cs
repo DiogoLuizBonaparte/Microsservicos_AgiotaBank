@@ -4,21 +4,57 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BancoStandard.EmprestimosAPI.Model
 {
+        [Table("contract")]
     public class Contract : BaseEntity
     {
-        [Column("Cliente")]
+        [Column("cliente")]
         [Required]
         [StringLength(50)]
         public string Cliente { get; set; }
 
-        [Column("Valor_Emp")]
+        [Column("valor_emp")]
         [Required]
         [StringLength(50)]
-        public string ValorEmp { get; set; }
+        public double ValorEmp { get; set; }
 
-        [Column("Valor_Div")]
+        [Column("valor_div")]
         [Required]
         [StringLength(50)]
-        public string ValorDiv { get; set; }
+        public double ValorDiv { get; set; }
+
+        [Column("valor_luc")]
+        [Required]
+        [StringLength(50)]
+        public double ValorLucro { get; set; }
+
+        [Column("porcentagem")]
+        [Required]
+        [StringLength(50)]
+        public double Porcentagem { get; set; }
+
+        [Column("tipo_pagamento")]
+        [Required]
+        [StringLength(50)]
+        public string TipoPagamento { get; set; }
+
+        [Column("data_emp")]
+        [Required]
+        [StringLength(50)]
+        public DataType DataEmp { get; set; }
+
+        [Column("data_acor")]
+        [Required]
+        [StringLength(50)]
+        public DataType DataAcordo { get; set; }
+
+        [Column("data_final")]
+        [Required]
+        [StringLength(50)]
+        public DataType DataFinal { get; set; }
+
+        [Column("observacao")]
+        [Required]
+        [StringLength(50)]
+        public string Observacao { get; set; }
     }
 }
