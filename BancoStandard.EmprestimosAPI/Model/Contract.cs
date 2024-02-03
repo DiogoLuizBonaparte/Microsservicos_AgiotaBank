@@ -1,6 +1,7 @@
 ﻿using BancoStandard.EmprestimosAPI.Model.Base;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.Serialization;
 
 namespace BancoStandard.EmprestimosAPI.Model
 {
@@ -40,17 +41,23 @@ namespace BancoStandard.EmprestimosAPI.Model
         [Column("data_emp")]
         [Required]
         [StringLength(50)]
-        public DataType DataEmp { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime DataEmp { get; set; }
 
         [Column("data_acor")]
         [Required]
         [StringLength(50)]
-        public DataType DataAcordo { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime DataAcordo { get; set; }
 
         [Column("data_final")]
         [Required]
         [StringLength(50)]
-        public DataType DataFinal { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime DataFinal { get; set; }
 
         [Column("observacao")]
         [Required]
