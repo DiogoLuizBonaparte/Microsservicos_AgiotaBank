@@ -11,6 +11,11 @@ builder.Services.AddHttpClient<IClientService, ClientService>( c =>
     c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ClienteAPI"])
     );
 
+builder.Services.AddHttpClient<IContractService, ContractService>(c =>
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ContractAPI"])
+    );
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

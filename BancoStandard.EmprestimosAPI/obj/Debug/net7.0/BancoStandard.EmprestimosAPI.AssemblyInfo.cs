@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.EmprestimosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1c74d824bcb90fb62b6d2271c984094a8292e9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b319fec8c37e6d8f0cf004e20922302ce2dc83d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.EmprestimosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.EmprestimosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -49,10 +49,6 @@ namespace BancoStandard.Front.Services
                 return await response.ReadContentAs<bool>();
             else throw new Exception("Algo de errado aconteceu!");
         }
-
-      
-
-
-       
+          
     }
 }
