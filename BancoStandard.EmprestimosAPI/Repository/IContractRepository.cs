@@ -8,6 +8,6 @@ namespace BancoStandard.EmprestimosAPI.Repository
         Task<ContractVO> FindById(long id);
         Task<ContractVO> Create(ContractVO vo);
         Task<ContractVO> Update(ContractVO vo);
-        Task<ContractVO> Delete(long id);
+        Task<bool> Delete(long id);
     }
 }

@@ -17,14 +17,14 @@ namespace BancoStandard.CadastroAPI.Repository
         }
         public async Task<IEnumerable<ClienteVO>> FindAll()
         {
-            List<Cliente> products = await _context.Clientes.ToListAsync();
-            return _mapper.Map<List<ClienteVO>>(products);
+            List<Cliente> clientes = await _context.Clientes.ToListAsync();
+            return _mapper.Map<List<ClienteVO>>(clientes);
         }
         public async Task<ClienteVO> FindById(long id)
         {
-            Cliente product = await _context.Clientes.Where(p => p.Id == id)
+            Cliente cliente = await _context.Clientes.Where(p => p.Id == id)
                 .FirstOrDefaultAsync() ?? new Cliente();
-            return _mapper.Map<ClienteVO>(product);
+            return _mapper.Map<ClienteVO>(cliente);
         }
 
         public async Task<ClienteVO> Create(ClienteVO vo)
