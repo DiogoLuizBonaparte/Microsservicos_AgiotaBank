@@ -6,88 +6,91 @@
 <div class="container p-4 border">
     <div class="row pb-2">
         <div class="col">
-            <h1 class="text-primary">Client List</h1>
+            <h1 class="text-primary">Contracts List</h1>
         </div>
         <div class="col text-end pt-1">
-            <a asp-action="ContractClient" class="btn btn-outline-primaty">
-                <button type="button" class="btn btn-primary btn-lg">Create New Client</button>
+            <a asp-action="ContractCreate" class="btn btn-outline-primaty">
+                <button type="button" class="btn btn-primary btn-lg">Create New Contract</button>
             </a>
         </div>
     </div>
     <table class="table">
-        <thead>
+        <tdead>
             <tr>
-                <th>
+                <td>
                     Name
-                </th>
-                <th>
+                </td>
+                <td>
                     Valor Empréstimo
-                </th>
-                <th>
+                </td>
+                <td>
                     Valor Dívida
-                </th>
-                <th>
+                </td>
+                <td>
                     Lucro
-                </th>
-                <th>
+                </td>
+                <td>
                     Porcentagem
-                </th>
-                <th>
+                </td>
+                <td>
                     Tipo de Pagamento
-                </th>
-                <th>
+                </td>
+                <td>
                     Data do Empréstimo
-                </th>
-                <th>
+                </td>
+                <td>
                     Data acordada
-                </th>
-                <th>
+                </td>
+                <td>
                     Data da Pagamento
-                </th>
-                <th>
+                </td>
+                <td>
                     Observação
-                </th>
+                </td>
             </tr>
-        </thead>
+        </tdead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <th>
+                    <td>
                         @item.Cliente
-                    </th>
-                    <th>
-                        @item.ValorEmp
-                    </th>
-                    <th>
-                        @item.ValorDiv
-                    </th>
-                    <th>
-                        @item.ValorLucro
-                    </th>
-                    <th>
-                        @item.Porcentagem
-                    </th>
-                    <th>
+                    </td>
+                    <td>
+                        @((item.ValorEmp).ToString("c"))
+                    </td>
+                    <td>
+                        @((item.ValorDiv).ToString("c"))
+                    </td>
+                    <td>
+                        @((item.ValorLucro).ToString("c"))
+                    </td>
+                    <td>
+                        @string.Format($"{item.Porcentagem} %")
+                    </td>
+                    <td>
+                        @item.TipoPagamento
+                    </td>
+                    <td>
                         @item.DataEmp
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @item.DataAcordo
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @item.DataFinal
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @item.Observacao
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <a asp-action="ContractUpdate" class=" btn btn-primary" asp-route-id="@item.Id">
                             Editar
                         </a>
                         <a asp-action="ContractDelete" class=" btn btn-danger" asp-route-id="@item.Id">
                             Deletar
                         </a>
-                    </th>
+                    </td>
                 </tr>
             }
 

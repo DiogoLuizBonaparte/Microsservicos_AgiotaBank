@@ -29,9 +29,9 @@ namespace BancoStandard.Front.Models
         [Required]
         public DateTime DataAcordo { get; set; }
 
-        
+        [Required]
         public DateTime DataFinal { get; set; }
-
+        [Required]
         public string Observacao { get; set; }
     }
 }

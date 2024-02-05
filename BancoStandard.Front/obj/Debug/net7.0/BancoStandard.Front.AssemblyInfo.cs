@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.Front")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b319fec8c37e6d8f0cf004e20922302ce2dc83d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b3e8669f5b10d36b4640e1424cf7794767b8117")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.Front")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.Front")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

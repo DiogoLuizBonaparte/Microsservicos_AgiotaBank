@@ -55,7 +55,7 @@ namespace BancoStandard.Front.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult> ContracttDelete(long id)
+        public async Task<IActionResult> ContractDelete(long id)
         {
             var model = await _contractservice.FindContractById(id);
             if (model != null) return View(model);
