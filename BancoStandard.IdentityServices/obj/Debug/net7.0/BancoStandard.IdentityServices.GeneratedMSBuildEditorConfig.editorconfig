@@ -14,9 +14,113 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Bonaparte\source\repos\BancoStandard\BancoStandard.IdentityServices
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxBY2NvdW50XEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Account/Create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxBY2NvdW50XENyZWF0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Account/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxBY2NvdW50XExvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Account/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxBY2NvdW50XExvZ291dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Account/Logout/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxBY2NvdW50XExvZ291dFxMb2dnZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxDb25zZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Consent/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxDb25zZW50XF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxEZXZpY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxEZXZpY2VcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Device/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxEZXZpY2VcX1Njb3BlTGlzdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxEaWFnbm9zdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxHcmFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/MainModule/Home/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWFpbk1vZHVsZVxIb21lXEVycm9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Account/Create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Account/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Account/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Account/Logout/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXRcTG9nZ2VkT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Consent/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Device/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Home/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -30,8 +134,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.IdentityServices/Views/_ViewImports.cshtml]

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.IdentityServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8e51ccf5cb821f8522b04cb4c873255625794d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2207fb552f557c24b5c15f76ddbdc744eedcc199")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.IdentityServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.IdentityServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
