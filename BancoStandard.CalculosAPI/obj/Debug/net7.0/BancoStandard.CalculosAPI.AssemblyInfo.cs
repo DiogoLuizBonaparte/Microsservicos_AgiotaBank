@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.CalculosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8e51ccf5cb821f8522b04cb4c873255625794d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+422a5b57f7c62c3ab0861dc419799f3944486e5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.CalculosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.CalculosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
