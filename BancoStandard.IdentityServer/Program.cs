@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SQLContext>(
         options => options.UseSqlServer("Server=DESKTOP-71URVSU\\SQLEXPRESS;" +
-        "Database=bk_emprestimos;Integrated Security=SSPI;" +
+        "Database=bk_identity_server;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
 
 
