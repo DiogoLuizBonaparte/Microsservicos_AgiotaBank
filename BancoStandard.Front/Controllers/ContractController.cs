@@ -69,6 +69,7 @@ namespace BancoStandard.Front.Controllers
             if (ModelState.IsValid)
             {
                 var response = await _contractservice.DeleteContractById(model.Id);
+                
                 if (response) return RedirectToAction(nameof(ContractIndex));
 
             }

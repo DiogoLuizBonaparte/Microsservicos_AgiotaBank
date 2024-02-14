@@ -55,7 +55,7 @@ namespace BancoStandard.EmprestimosAPI.Model
         [Column("data_final")]
         [Required]
         [StringLength(50)]
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataFinal { get; set; }
 

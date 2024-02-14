@@ -38,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RcQ29udHJhY3RDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.Front/Views/Contract/ContractDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RcQ29udHJhY3REZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.Front/Views/Contract/ContractIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RcQ29udHJhY3RJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.Front/Views/Contract/ContractUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJhY3RcQ29udHJhY3RVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Bonaparte/source/repos/BancoStandard/BancoStandard.Front/Views/Home/Index.cshtml]

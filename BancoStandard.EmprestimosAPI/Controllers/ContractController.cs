@@ -32,7 +32,9 @@ namespace BancoStandard.EmprestimosAPI.Controllers
         public async Task<ActionResult<ContractVO>> Create([FromBody] ContractVO vo)
         {
             if (vo == null) return BadRequest();
+           
             var contract = await _repository.Create(vo);
+            string dataFormat = vo.DataFinal.ToString("dd MM yyyy");
             return Ok(contract);
         }
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoStandard.IdentityServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfc940405409f42d8378494be94702f4fcb12df2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+707fb2b5a0532b3a7ddeb3250994b6f7a3b0048b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoStandard.IdentityServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoStandard.IdentityServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
