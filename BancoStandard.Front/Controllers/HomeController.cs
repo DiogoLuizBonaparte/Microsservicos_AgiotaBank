@@ -7,7 +7,7 @@ namespace BancoStandard.Front.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+       /* private readonly ILogger<HomeController> _logger;
         private readonly IContractService _contractservice;
 
         public HomeController(ILogger<HomeController> logger, IContractService contractservice)
@@ -33,3 +33,4 @@ namespace BancoStandard.Front.Controllers
         }
     }
 }
+       */
